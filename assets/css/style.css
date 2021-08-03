@@ -1,0 +1,33 @@
+*{
+    font-family: "Shadows_into_light", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --prim:#327fa8;
+    --sec:#b4cfde;
+    --tert:#2e576e;
+}
+body {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer";
+  }
+
+.nav-wrapper {
+    background-color: var(--prim);
+
+}
+
+.footer-fixed{
+
+}
+
+.page-footer {
+    background-color: var(--prim);
+}
+/* 
+.brand-logo {
+    margin-left: 50px;
+} */
