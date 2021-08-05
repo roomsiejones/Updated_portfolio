@@ -20,14 +20,17 @@ body {
 
 }
 
-.footer-fixed{
+.sidenav {
+    background-color: var(--prim);
+}
+
+.btn {
+    background-color: var(--tert);
+    width: 25vw;
+    
 
 }
 
 .page-footer {
     background-color: var(--prim);
 }
-/* 
-.brand-logo {
-    margin-left: 50px;
-} */
